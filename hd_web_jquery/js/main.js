@@ -81,10 +81,10 @@ $(function () {
 
 
 
-    $('.slide_handler i:first-child').on('click', function () {
+    $('.Section03 .slide_handler i:first-child').on('click', function () {
         $('.left_slider').slick('slickPrev')
     });
-    $('.slide_handler i:last-child').on('click', function () {
+    $('.Section03 .slide_handler i:last-child').on('click', function () {
         $('.left_slider').slick('slickNext')
     });
 
